@@ -1,9 +1,69 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Restaurant Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="main.bundle.js"></script></head>
-  <body>
-  </body>
-</html>
+<head><script defer src="main.bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve '/home/romain/repos/Restaurant-page/srx/index.html' in '/home/romain/repo  s/Restaurant-page'
+  ModuleNotFoundError: Module not found: Error: Can't resolve '/home/romain/repos/Restaurant-page/srx/index.html'   in '/home/romain/repos/Restaurant-page'
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/Compilation.js:2016:28
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/NormalModuleFactory.js:798:13
+      at eval (eval at create (/home/romain/repos/Restaurant-page/node_modules/tapable/lib/HookCodeFactory.js:33:1  0), <anonymous>:10:1)
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/NormalModuleFactory.js:270:22
+      at eval (eval at create (/home/romain/repos/Restaurant-page/node_modules/tapable/lib/HookCodeFactory.js:33:1  0), <anonymous>:9:1)
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/NormalModuleFactory.js:434:22
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/NormalModuleFactory.js:116:11
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/NormalModuleFactory.js:670:25
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/NormalModuleFactory.js:855:8
+      at /home/romain/repos/Restaurant-page/node_modules/webpack/lib/NormalModuleFactory.js:975:5
+  
+  - Compilation.js:2016 
+    [Restaurant-page]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [Restaurant-page]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [Restaurant-page]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:434 
+    [Restaurant-page]/[webpack]/lib/NormalModuleFactory.js:434:22
+  
+  - NormalModuleFactory.js:116 
+    [Restaurant-page]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:670 
+    [Restaurant-page]/[webpack]/lib/NormalModuleFactory.js:670:25
+  
+  - NormalModuleFactory.js:855 
+    [Restaurant-page]/[webpack]/lib/NormalModuleFactory.js:855:8
+  
+  - NormalModuleFactory.js:975 
+    [Restaurant-page]/[webpack]/lib/NormalModuleFactory.js:975:5
+  
+  - child-compiler.js:169 
+    [Restaurant-page]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:551 finalCallback
+    [Restaurant-page]/[webpack]/lib/Compiler.js:551:5
+  
+  - Compiler.js:577 
+    [Restaurant-page]/[webpack]/lib/Compiler.js:577:11
+  
+  - Compiler.js:1196 
+    [Restaurant-page]/[webpack]/lib/Compiler.js:1196:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [Restaurant-page]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1192 
+    [Restaurant-page]/[webpack]/lib/Compiler.js:1192:33
+  
+  - Compilation.js:2787 finalCallback
+    [Restaurant-page]/[webpack]/lib/Compilation.js:2787:11
+  
+  - Compilation.js:3092 
+    [Restaurant-page]/[webpack]/lib/Compilation.js:3092:11
+  
+  
+</pre>
