@@ -24,6 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	height: 100vh;
 	line-height: 1;
 }
 ol, ul {
@@ -39,26 +40,59 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
-    width : 60%;
-    border-top : 1px solid black;
-    border-bottom: 1px solid black;
 }
-th {
-    height: 80px; 
-}
-tr {
-    height : 60px;
-    text-align: center;
-    vertical-align: middle;;
-    border-bottom: 1px solid grey;
-}
+/* end of reset */
 
 .main-header {
 	display : flex;
-	height: 150px;
-    gap: 30px;
-    flex-direction: column;
+	height: 70px;
+    gap: 50px;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #d0d7de;
+	color: black;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+}
+.main-header div {
+	font-size: 1.5em;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+.main-container {
+	padding: 3em;
+	padding-top: 120px;
+	margin-left: 18%;
+	margin-right: 18%;
+	display: flex;
+	flex-direction: row;
+	gap: 70px;
+	}
+.left {
+	display: flex;
+	flex-direction: column;
+	flex : 1;
+
+}
+.right {
+	
+	flex: 1;
+}
+.right img {
+	box-shadow: 0px 0px 3px rgba(0,0,0,.6);
+}
+
+
+.main-footer {
+	color: black;
+	position: absolute;
+	bottom: 0;
+	background-color: #d0d7de;
+	height: 30px;
+	width: 100%;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.6);
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
